@@ -36,8 +36,8 @@ const failTestCases = [
   { id: 'Neg_Fun_0005', input: 'hri lassanai. karapu wade anthimai', expected: 'හ්‍රි ලස්සනෛ. කරපු wade අන්තිමෛ' },
   { id: 'Neg_Fun_0006', input: 'mata click une nae', expected: 'මට click උනේ නෑ' },
   { id: 'Neg_Fun_0007', input: 'oyaa kiyapu eka hari sus', expected: 'ඔයා කියපු එක හරි සුස්' },
-  { id: 'Neg_UI_0008', input: 'mata adha eka hari weird kiyala hithuna. oyaa kiyapu widihak tikak too direct. eka honda da nadda kiyala therenne nae.' , expected: 'මට අද ඒක හරී weird කියලා හිතුනා.  ඔයා කියපු විදීහ ටිකක් direct වැඩි. ඒක හොද ද නරක කියලා තෙරෙන්නේ නෑ' },
-  { id: 'Neg_Fun_0009', input: 'ado bn adha nam mood eka totally off', expected: 'අඩෝ බන් අද මූඩ් එක totally off' },
+  { id: 'Neg_Fun_0008', input: 'mata adha eka hari weird kiyala hithuna. oyaa kiyapu widihak tikak too direct. eka honda da nadda kiyala therenne nae.' , expected: 'මට අද ඒක හරී weird කියලා හිතුනා.  ඔයා කියපු විදීහ ටිකක් direct වැඩි. ඒක හොද ද නරක කියලා තෙරෙන්නේ නෑ' },
+  { id: 'Neg_UI_0009', input: 'ado bn adha nam mood eka totally off', expected: 'අඩෝ බන් අද මූඩ් එක totally off' },
   { id: 'Neg_UI_0010', input: 'machan adha nam full chaos. kalin plan karapu deyak monawath hariyata vune nae. hrima awkward situation ekakata moona dunne.', expected: 'මචන් අද නම් full chaos. කලින් plan කරපු දෙයක් මොනවත් හරියට වුනෙ නැ. හරිම awkward situation එකකට මූණ දුන්නේ.' },
 ];   
 test.describe('Singlish → Sinhala Transliteration', () => {
